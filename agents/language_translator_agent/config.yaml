@@ -1,0 +1,10 @@
+name: language_translator_agent
+description: A language translator agent that understands idioms and returns fluent results
+entrypoint: main.py
+requirements: requirements.txt
+input_schema:
+  text: string
+  source_lang: string
+  target_lang: string
+output_schema:
+  translation: string
