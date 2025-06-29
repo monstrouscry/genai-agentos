@@ -1,4 +1,4 @@
-from agent.translator_agent import TranslatorAgent
+from translator_agent import TranslatorAgent
 import os
 
 if __name__ == "__main__":
